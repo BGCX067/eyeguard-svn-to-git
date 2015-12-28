@@ -1,0 +1,17 @@
+护眼卫士 V0.7
+创建于：2012-08-22
+
+一、功能如下：
+1、可设置工作时间
+2、可设置休息时间
+3、可设置锁屏背景颜色
+
+二、运行环境：
+1、GTK3
+
+三、安装办法：
+1、使用sudo dpkg -i eyeguard-xx.deb
+
+四、开机自启动
+在中/etc/rc.local加入如下语句（在exit 0前）：
+/usr/local/eyeguard/eyeguard
